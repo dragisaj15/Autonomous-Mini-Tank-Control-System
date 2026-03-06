@@ -4,6 +4,18 @@
 This project involves the development of an autonomous, tracked robotic vehicle (Mini Tank) controlled by a **dsPIC30F4013** microcontroller. The system is designed to navigate its environment independently by constantly scanning for obstacles and making real-time pathfinding decisions.
 
 The tank integrates both analog infrared and digital ultrasonic sensors to calculate distances, uses PWM to drive the motors, and is remotely activated via a Bluetooth serial (UART) connection.
+## Custom PCB Design (Altium Designer)
+
+To accommodate all necessary components, including the microcontroller, motor drivers, and sensor arrays, a custom double-sided printed circuit board (PCB) was designed.
+
+### 2D PCB Routing
+This view demonstrates the trace routing across the top (red) and bottom (blue) layers, including necessary via placements and component footprints.
+![2D PCB Routing](pcb_2d.jpg)
+
+### 3D Board Visualization
+The 3D model was generated to verify component placement and ensure no mechanical collisions prior to manufacturing.
+![3D PCB Model](pcb_3d.jpg)
+
 
 ##  Hardware Architecture
 *   **Microcontroller:** Microchip dsPIC30F4013 (10MHz crystal, `XT_PLL4`)
