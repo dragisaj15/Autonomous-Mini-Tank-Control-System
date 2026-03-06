@@ -1,4 +1,5 @@
 # Autonomous Mini Tank Control System
+![Assembled Mini Tank](Hardware/mini_tank.jpg)
 
 ##  Project Overview
 This project involves the development of an autonomous, tracked robotic vehicle (Mini Tank) controlled by a **dsPIC30F4013** microcontroller. The system is designed to navigate its environment independently by constantly scanning for obstacles and making real-time pathfinding decisions.
