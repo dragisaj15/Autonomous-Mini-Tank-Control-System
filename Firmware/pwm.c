@@ -39,4 +39,5 @@ void PWM2(int dutyC)
     OC2CON = OC_IDLE_CON & OC_TIMER3_SRC & OC_PWM_FAULT_PIN_DISABLE& T3_PS_1_256;//konfiguracija pwma
              
     T3CONbits.TON = 1;//ukljucujemo timer koji koristi
+
 }
