@@ -10,11 +10,11 @@ To accommodate all necessary components, including the microcontroller, motor dr
 
 ### 2D PCB Routing
 This view demonstrates the trace routing across the top (red) and bottom (blue) layers, including necessary via placements and component footprints.
-![2D PCB Routing](pcb_2d.jpg)
+![2D PCB Routing](Hardware/pcb_2d.jpg)
 
 ### 3D Board Visualization
 The 3D model was generated to verify component placement and ensure no mechanical collisions prior to manufacturing.
-![3D PCB Model](pcb_3d.jpg)
+![3D PCB Model](Hardware/pcb_3d.jpg)
 
 
 ##  Hardware Architecture
